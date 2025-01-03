@@ -1,0 +1,138 @@
+.intro-section{
+     height: 100vh;
+     display: flex;
+     flex-direction: column;
+     justify-content: space-between;
+     padding: 0 10%;
+
+    flex-direction: row;
+    overflow: hidden;
+
+}
+
+
+ 
+ 
+  
+.intro-container{
+
+     max-width: 600px;
+
+}
+
+.intro-container h1{
+     position: relative;
+     font-weight: 700;
+     color: #ededed;
+     line-height: 1.2;
+     margin-top: 150px;
+}
+.intro-container h1::before {
+     content: '';
+     position: absolute;
+     top: 0; /* Positioned right below the text */
+     right: 0;
+     width: 100%;
+     height: 100%;
+     background-color: #081b29;
+     animation: showRight 1s ease forwards;
+     animation-delay: 1s;
+ }
+.intro-container h3{
+     font-size: 23px;
+     font-weight: 500;
+     color: #00abf0;
+}
+.intro-container h3::before {
+     content: '';
+     position: absolute;
+     top: 0; /* Positioned right below the text */
+     right: 0;
+     width: 100%;
+     height: 100%;
+     background-color: #081b29;
+     animation: showRight 1s ease forwards;
+     animation-delay: 1.3s;
+ }
+.intro-container p{
+     color: #ededed;
+     line-height: 1.5;
+     margin: 10px 0 40px;
+     font-size: 20px;
+     font-weight: 500;
+     
+}
+.intro-container p::before {
+     content: '';
+     position: absolute;
+     top: 0; /* Positioned right below the text */
+     right: 0;
+     width: 100%;
+     height: 100%;
+     background-color: #081b29;
+     animation: showRight 1s ease forwards;
+     animation-delay: 1.8s;
+ }
+
+.intro-container button{
+     display: inline-block;
+     text-decoration: none;
+     color: #00abf0;
+     border: none;
+     outline: none;
+     padding: 12px 34px;
+     background: transparent;
+     position: relative;
+     cursor: pointer;
+     transition: 1s;
+     z-index: 1;
+     overflow: hidden;
+     margin-bottom: 100px;
+}
+.intro-container button::before {
+     content: '';
+     position: absolute;
+     top: 0; /* Positioned right below the text */
+     right: 0;
+     width: 100%;
+     height: 100%;
+     background-color: #081b29;
+     animation: showRight 1s ease forwards;
+     animation-delay: 2s;
+ }
+.intro-container button a{
+     text-decoration: none;
+     color: #00abf0;
+
+
+
+}
+.intro-container button a::before {
+     content: '';
+     position: absolute;
+     top: 0; /* Positioned right below the text */
+     right: 0;
+     width: 100%;
+     height: 100%;
+     background-color: #081b29;
+     animation: showRight 1s ease forwards;
+     animation-delay: 1.9s;
+ }
+.intro-container button::before{
+     content: '';
+     background: #00abf0;
+     position: absolute;
+     top: 0;
+     left: 0;
+     width: 0;
+     height: 100%;
+     z-index: -1;
+     transition: 0.5s;
+}
+
+
+
+
+.intro-container button:hover::after{
+     width: 100%;
+}

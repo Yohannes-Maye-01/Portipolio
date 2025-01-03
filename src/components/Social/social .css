@@ -1,0 +1,47 @@
+.social-container {
+     display: flex;
+     gap: 15px; /* Space between icons */
+     width: 35%;
+     
+   }
+   
+   .social-btn {
+     display: inline-flex;
+     align-items: center;
+     justify-content: center;
+     width: 2.5rem;
+     height: 2.5rem;
+   border: 1px solid #14acc7;
+     border-radius: 50%; /* Circular icons */
+     text-decoration: none;
+     color: #fff; /* Icon color */
+     font-size: 24px; /* Font size for icons */
+     transition: transform 0.3s, background-color 0.3s ease;
+     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+   }
+   
+   /* Hover effects for specific social media platforms */
+   .social-btn:hover {
+     transform: scale(1.1); /* Grow slightly on hover */
+   }
+   
+   .social-btn.facebook:hover {
+     background-color: #3b5998;
+   }
+   
+   .social-btn.twitter:hover {
+     background-color: #1da1f2;
+   }
+   
+   .social-btn.instagram:hover {
+     background: radial-gradient(circle, #f09433, #e6683c, #dc2743, #cc2366, #bc1888);
+   }
+   
+   .social-btn.linkedin:hover {
+     background-color: #0077b5;
+   }
+   
+   .intro-container button a{
+     text-decoration: none;
+     color: #00abf0;
+}

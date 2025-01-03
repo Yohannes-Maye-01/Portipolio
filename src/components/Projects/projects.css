@@ -1,0 +1,24 @@
+.projects-section {
+     padding: 4rem 2rem;
+     background-color: #081b29;
+     
+   
+     margin: 30px;
+   }
+   
+   .section-title {
+     font-size: 2.5rem;
+     text-align: center;
+     margin-bottom: 2rem;
+   }
+   .projects-container {
+     display: grid;
+     grid-template-columns: repeat(2, 1fr); /* Always two columns */
+     gap: 4rem; /* Space between grid items */
+     justify-content: center; /* Center the grid */
+     padding: 1rem;
+   }
+   
+   
+   
+   
