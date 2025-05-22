@@ -28,6 +28,7 @@ const About: React.FC = () => {
             <p className="text-lg leading-relaxed">
               I'm a passionate full-stack developer with over 5 years of experience building web and mobile applications.
               I specialize in React, React Native, and modern JavaScript frameworks, with strong backend skills in Python.
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti animi voluptate placeat deserunt dicta consequatur asperiores magnam est, ducimus optio ab blanditiis vero architecto hic odio autem quibusdam voluptatibus cum.
             </p>
             <p className="text-lg leading-relaxed">
               My approach combines technical expertise with a deep understanding of user experience principles, 
@@ -99,7 +100,7 @@ const About: React.FC = () => {
                       </p>
                     </div>
                     <div>
-                      <p className="font-medium">BSc Software Engineering</p>
+                      <p className="font-medium">Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident dolore distinctio, inventore eveniet expedita sit, aliquam commodi nisi fuga nam perferendis dolores odit incidunt nemo? Reiciendis qui quod quia maxime.</p>
                       <p className={`text-sm ${theme === 'dark' ? 'text-gray-400' : 'text-gray-600'}`}>
                         State University • 2012 - 2016
                       </p>
