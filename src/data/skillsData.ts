@@ -102,28 +102,106 @@ export const skillsData: Skill[] = [
     level: 90,
     icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg',
   },
-  {
-    name: 'Docker',
-    category: 'tools',
-    level: 75,
-    icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg',
-  },
-  {
-    name: 'Redux',
-    category: 'frontend',
-    level: 85,
-    icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redux/redux-original.svg',
-  },
-  {
-    name: 'GraphQL',
-    category: 'backend',
-    level: 80,
-    icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/graphql/graphql-plain.svg',
-  },
+ 
+ 
+
   {
     name: 'Figma',
     category: 'tools',
     level: 70,
     icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg',
+  },
+  {
+    name: 'Vue.js',
+    category: 'frontend',
+    level: 80,
+    icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original.svg',
+  },
+  {
+    name: 'SASS',
+    category: 'frontend',
+    level: 85,
+    icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg',
+  },
+  {
+   
+    name: 'REST API',
+    category: 'backend',
+    level: 90,
+    icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/api/api-original.svg',
+  },
+  {
+    name: 'Firebase',
+    category: 'tools',
+    level: 70,
+    icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg',
+  },
+  {
+    name: 'Heroku',
+    category: 'tools',
+    level: 65,
+    icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/heroku/heroku-original.svg',
+  },
+  {
+    name: 'Vercel',
+    category: 'tools',
+    level: 60,
+    icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vercel/vercel-original.svg',
+  },
+  
+  {
+    name: 'MySQL',
+    category: 'backend',
+    level: 75,
+    icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg',
+  },
+ 
+  {
+    name: 'Canva',
+    category: 'tools',
+    level: 70,
+    icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/canva/canva-original.svg',
+  },
+  {
+    name: 'VS Code',
+    category: 'tools',
+    level: 95,
+    icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg',
+  },
+  {
+    name: 'Postman',
+    category: 'tools',
+    level: 85,
+    icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postman/postman-original.svg',
+  },
+  {
+    name: 'Linux',
+    category: 'tools',
+    level: 80,
+    icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg',
+  },
+  {
+    name: 'Java',
+    category: 'backend',
+    level: 80,
+    icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg',
+  },
+  {
+    name: 'JavaFX',
+    category: 'frontend',
+    level: 70,
+    icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg',
+  },
+  {
+    name: 'C++',
+    category: 'backend',
+    level: 75,
+    icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg',
+  },
+  {
+    name: 'C#',
+    category: 'backend',
+    level: 70,
+    icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg',
   },
 ];

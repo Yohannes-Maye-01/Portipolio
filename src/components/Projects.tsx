@@ -18,7 +18,7 @@ const Projects: React.FC = () => {
     { id: 'mobile', name: 'Mobile Apps' },
     { id: 'backend', name: 'Backend' },
   ];
-
+  console.log('Loaded projects:', projectsData);
   const filteredProjects = activeCategory === 'all' 
     ? projectsData 
     : projectsData.filter(project => project.category === activeCategory);

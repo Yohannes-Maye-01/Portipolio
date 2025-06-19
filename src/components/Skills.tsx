@@ -50,12 +50,8 @@ const Skills: React.FC = () => {
         
         <div className="mt-12 grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
           {filteredSkills.map((skill, index) => (
-            <motion.div
+            <div
               key={skill.name}
-              initial={{ opacity: 0, y: 20 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.5, delay: index * 0.1 }}
-              viewport={{ once: true, amount: 0.2 }}
               className={`p-6 rounded-xl ${
                 theme === 'dark' ? 'bg-gray-800' : 'bg-white shadow-md'
               } transition-all duration-300 hover:transform hover:scale-105`}
@@ -77,7 +73,7 @@ const Skills: React.FC = () => {
                 </div>
                 <p className="text-xs mt-2 text-primary font-medium">{skill.level}% Proficiency</p>
               </div>
-            </motion.div>
+            </div>
           ))}
         </div>
       </div>
